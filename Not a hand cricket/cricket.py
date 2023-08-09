@@ -74,7 +74,7 @@ def pmatch(choice):
             print("computer: ",com)
             
             if com!=pla:
-                scorec+=pla
+                scorec+=com
                 print("score: ",scorec)
                 continue
             elif com==pla:
@@ -230,9 +230,12 @@ def match():
         choice=l[random.randint(0,1)]
         print(f"choose to {choice}")
         cmatch(choice)
-        
 def check(sp,sc):
     if sp>sc:
+        print("player wins")
+    
+    
+match()
         print("player wins")
     
     
