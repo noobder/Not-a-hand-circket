@@ -236,7 +236,4 @@ def check(sp,sc):
     
     
 match()
-        print("player wins")
-    
-    
-match()
+        
